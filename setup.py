@@ -6,8 +6,8 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="simple_autocorrect_pt",
     version="0.0.1",
-    author="Breno Skuk",
-    author_email="breno.skuk@gmail.com",
+    author="Breno Skuk, Ana Orsi",
+    author_email="breno.skuk@gmail.com, ana.orsi@usp.br",
     description="Autocorrect to be used in the pipeline of rasa that corrects PT",
     long_description=long_description,
     long_description_content_type="text/markdown",
