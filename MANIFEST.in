@@ -1,2 +1,2 @@
-include corpus.txt
+include simple_autocorrect_pt/corpus.txt
 
