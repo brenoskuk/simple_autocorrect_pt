@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 
 from rasa_nlu.components import Component
 
-from filters.correction_functions import correct_user_input
+from .correction_functions import correct_user_input
 
 
 class Autocorrect(Component):

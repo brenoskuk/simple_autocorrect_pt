@@ -59,7 +59,7 @@ def words(text):
     return re.findall(r'\w+', text.lower())
 
 
-WORDS = Counter(words(open("venv/src/simple-autocorrect-pt/simple_autocorrect_pt/corpus.txt').read()) + list(x.vocab.strings))
+WORDS = Counter(words(open("venv/lib64/python3.6/site-packages/simple_autocorrect_pt/corpus.txt").read()) + list(x.vocab.strings))
 
 
 def P(word, N=sum(WORDS.values())):
